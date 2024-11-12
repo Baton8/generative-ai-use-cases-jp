@@ -18,6 +18,7 @@ import {
   PiRobot,
   PiVideoCamera,
   PiFlowArrow,
+  PiSunHorizonBold,
 } from 'react-icons/pi';
 import { Outlet } from 'react-router-dom';
 import Drawer, { ItemProps } from './components/Drawer';
@@ -157,6 +158,12 @@ const items: ItemProps[] = [
         display: 'tool' as const,
       }
     : null,
+  {
+    label: '朝からそれ正解',
+    to: '/asasore',
+    icon: <PiSunHorizonBold />,
+    display: 'usecase' as const,
+  },
 ].flatMap((i) => (i !== null ? [i] : []));
 
 // /chat/:chatId の形式から :chatId を返す
