@@ -29,7 +29,9 @@
     "ragKnowledgeBaseAdvancedParsingModelId": "anthropic.claude-3-sonnet-20240229-v1:0",
     "embeddingModelId": "amazon.titan-embed-text-v2:0",
     "selfSignUpEnabled": true,
-    "allowedSignUpEmailDomains": null,
+    "allowedSignUpEmailDomains": [
+      "baton8.com"
+    ],
     "samlAuthEnabled": false,
     "samlCognitoDomainName": "",
     "samlCognitoFederatedIdentityProviderName": "",
